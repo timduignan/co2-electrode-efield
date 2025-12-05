@@ -1,0 +1,13 @@
+# Exclude from public repo
+Writeup/
+old/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+

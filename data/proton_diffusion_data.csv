@@ -1,0 +1,31 @@
+Proton Diffusion Kinetic Limitation Analysis
+""
+Parameters:
+Proton diffusion coefficient D_H (m²/s),9.30e-09
+Faraday constant F (C/mol),96485
+Temperature (K),298
+Experimental current density (mA/cm²),0.76
+""
+Table 1: Sensitivity Analysis at pH 6
+δ (μm),Condition,[H+] (M),J_diff (mol/m²/s),i_diff (mA/cm²),Deficit vs Experimental
+1,Rotating disk (1000 rpm),1e-06,9.300e-06,8.973e-02,8.5e+00×
+5,Vigorous stirring,1e-06,1.860e-06,1.795e-02,4.2e+01×
+10,Moderate stirring,1e-06,9.300e-07,8.973e-03,8.5e+01×
+50,Gentle stirring,1e-06,1.860e-07,1.795e-03,4.2e+02×
+100,Unstirred (typical),1e-06,9.300e-08,8.973e-04,8.5e+02×
+500,Completely stagnant,1e-06,1.860e-08,1.795e-04,4.2e+03×
+""
+Table 2: pH Dependence of Diffusion-Limited Current
+pH,[H+] (M),i_diff (mA/cm²) δ=1μm,i_diff (mA/cm²) δ=100μm,Deficit (δ=1μm),Deficit (δ=100μm)
+2,1e-02,8.973e+02,8.973e+00,8.5e-04×,8.5e-02×
+3,1e-03,8.973e+01,8.973e-01,8.5e-03×,8.5e-01×
+4,1e-04,8.973e+00,8.973e-02,8.5e-02×,8.5e+00×
+5,1e-05,8.973e-01,8.973e-03,8.5e-01×,8.5e+01×
+6,1e-06,8.973e-02,8.973e-04,8.5e+00×,8.5e+02×
+7,1e-07,8.973e-03,8.973e-05,8.5e+01×,8.5e+03×
+8,1e-08,8.973e-04,8.973e-06,8.5e+02×,8.5e+04×
+""
+Notes:
+J_diff = D_H * [H+] / δ  (Fickian diffusion flux)
+i_diff = F * J_diff  (current density)
+Mean proton separation at pH 6: 118 nm
