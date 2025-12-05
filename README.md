@@ -57,9 +57,18 @@ where the denominator implements the Bikerman steric correction and $U_i(z)$ are
 - `proton_diffusion_estimate.py` - Estimates proton diffusion limitations
 - `energy_profile_calculation.py` - Proton transfer energy profile calculations
 
+## Associated Paper
+
+This code accompanies the following paper:
+
+**Membrane-separated electrodes enable high-rate low energy electrochemical carbon capture**  
+Kaige Sun, Mike Tebyetekerwa, Hongxia Zhang, Rizal Evans, Lei Ge, Yi Sun, Yuhui Ge, Zhuyuan Wang, Chao Xing, Jindi Yang, Xiangkang Zeng, Darren Martin, Xiwang Zhang  
+*ChemRxiv* (2025)  
+DOI: [10.26434/chemrxiv-2025-9pmwf-v2](https://chemrxiv.org/engage/chemrxiv/article-details/68c404e19008f1a4670d41bc)
+
 ## Citation
 
-If you use this code, please cite: [Add citation]
+If you use this code, please cite the paper above.
 
 ## License
 
